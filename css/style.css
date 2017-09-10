@@ -85,6 +85,12 @@ FOOTER SECTION
      display: block;
      height: 40px;
  }
+
+ .gap50 {
+     display: block;
+     height: 50px;
+ }
+
  /*========================
     THEAM COLOR
 =========================*/
