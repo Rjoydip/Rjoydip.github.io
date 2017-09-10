@@ -4,6 +4,7 @@
     var $window = $(window),
         $body = $('body');
 
+    $('.navbar').hide();
     /*
         ====================================================
             background-image flickering solution for mobile
@@ -42,6 +43,9 @@
         $('.preloader').fadeOut(500);
         $body.delay(350).css({
             'overflow-y': 'visible'
+        });
+        $window.scroll(function () {
+            ($(window).scrollTop() >= 150) ? $('.navbar').show().fadeIn("slow") : $('.navbar').hide(700).fadeOut("slow");
         });
     });
 

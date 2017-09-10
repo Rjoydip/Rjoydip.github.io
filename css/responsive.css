@@ -24,7 +24,7 @@
 @media only screen and (max-width: 767px) {
     /* HEADER AREA */
     .custom-navbar {
-        padding: 12px 0;
+        margin: 0;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
         background: #000;
@@ -33,73 +33,6 @@
         margin-top: 10px;
         -webkit-transition: all 0.4s ease-in-out;
         transition: all 0.4s ease-in-out;
-    }
-    .main-menu ul.navbar-nav {
-        float: left;
-    }
-    .main-menu ul.navbar-nav li a {
-        padding: 10px 5px;
-    }
-    .main-menu ul.nav.navbar-nav li.active:before {
-        display: none;
-    }
-    .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
-        margin-top: 15px;
-    }
-    .navbar-toggle {
-        float: none;
-        margin: 0;
-        padding: 9px;
-        -webkit-transition: all 0.4s ease-in-out 0s;
-        transition: all 0.4s ease-in-out 0s;
-    }
-    .navbar-header .navbar-toggle .icon-bar {
-        background: none repeat scroll 0 0 #fff;
-    }
-    .navbar-header {
-        display: inline-block;
-        float: right;
-        margin-top: 6px;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-    }
-    .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
-        padding: 10px 5px;
-    }
-    .custom-navbar.top-nav-collapse .navbar-collapse {
-        border-top: 1px solid transparent;
-        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
-        margin-top: 15px;
-    }
-    .custom-navbar.top-nav-collapse .navbar-toggle {
-        float: none;
-        margin: 0;
-        padding: 9px;
-        -webkit-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out;
-    }
-    .custom-navbar.top-nav-collapse .navbar-toggle .icon-bar {
-        background: none repeat scroll 0 0 #fff;
-    }
-    .custom-navbar.top-nav-collapse .logo a {
-        color: #fff;
-        margin-top: 6px;
-    }
-    .custom-navbar.top-nav-collapse .navbar-header {
-        margin-top: 0;
-    }
-    .custom-navbar.top-nav-collapse {
-        padding: 12px 0;
-    }
-    .mobile-menu-activated ul.nav.navbar-nav li {
-        display: block;
-        text-align: left;
-    }
-    .main-menu ul.navbar-nav {
-        text-align: left !important;
-        display: block;
     }
     .welcome-text h1 {
         font-size: 32px;

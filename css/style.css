@@ -183,7 +183,55 @@ FOOTER SECTION
     ==================================================
  */
 
+ .logo a {
+     color: #fff;
+     font-family: 'Oswald', sans-serif;
+ }
+
+ .logo img {
+     height: 2em;
+     width: 2em;
+     border-radius: 50%;
+ }
+
  .intro-section {
+     height: 100%;
+ }
+
+ .custom-navbar {
+      background: #000;
+ }
+
+ .custom-navbar.top-nav-collapse .logo a {
+     color: #fff;
+     margin-top: 20px;
+ }
+
+ .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
+     color: #fff;
+     padding: 22px 13px;
+ }
+
+ .custom-navbar.top-nav-collapse {
+     background: #000;
+ }
+
+ .custom-navbar .container {
+     margin: 1em;
+ }
+
+ /*================================================
+             WELCOME AREA
+==================================================*/
+
+ .welcome-area {
+     height: 100%;
+     position: relative;
+     z-index: 3;
+     background: url("../assets/intro-bg.jpg");
+     background-size: cover;
+     z-index: 1;
+     position: relative;
      height: 100%;
  }
 
@@ -197,24 +245,6 @@ FOOTER SECTION
      background: #000;
      opacity: .8;
      z-index: -1;
- }
-
- .welcome-area {
-     background: url("../assets/intro-bg.jpg");
-     /*** intro-section background image ***/
-     background-size: cover;
-     z-index: 1;
-     position: relative;
-     height: 100%;
- }
- /*================================================
-             WELCOME AREA
-==================================================*/
-
- .welcome-area {
-     height: 100%;
-     position: relative;
-     z-index: 3;
  }
 
  .welcome-table {
@@ -354,12 +384,6 @@ FOOTER SECTION
  a.btn:focus {
      outline: none;
  }
-
- .btn:hover,
- a.btn:hover {}
-
- .btn.extra:hover,
- a.btn.extra:hover {}
  /*================================================
              SKILS SECTION
 ==================================================*/
