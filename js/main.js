@@ -5,20 +5,6 @@
         $body = $('body');
 
     /*
-        =================================
-            Bootstrap menu fix
-        ==================================
-    */
-
-    $(".navbar-toggle").on("click", function () {
-        $body.addClass("mobile-menu-activated");
-    });
-
-    $("ul.nav.navbar-nav li a").on("click", function () {
-        $(".navbar-collapse").removeClass("in");
-    });
-
-    /*
         ====================================================
             background-image flickering solution for mobile
         =======================================================
@@ -53,9 +39,9 @@
 
     $window.load(function () {
         $('.spinner').fadeOut();
-        $('.preloader').delay(350).fadeOut(500);
+        $('.preloader').fadeOut(500);
         $body.delay(350).css({
-            'overflow': 'visible'
+            'overflow-y': 'visible'
         });
     });
 

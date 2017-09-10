@@ -25,17 +25,18 @@
     <link href="./css/responsive.css" rel="stylesheet">
 
 
-    <!--[if lt IE 9]>
+    <!--
+        [if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <![endif]
+    -->
 </head>
 
-<body style="overflow: visible;">
-
+<body>
     <!--===== Preloader ====-->
-    <div class="preloader" style="display: none;">
-        <div class="spinner" style="display: none;"></div>
+    <div class="preloader" style="display: block;">
+        <div class="spinner" style="display: block;"></div>
     </div>
 
     <div id="home"></div>
@@ -66,7 +67,6 @@
 
     </div>
     <!--=====************* END INTRO SECTION ***************=====-->
-
 
     <!--=====************** ABOUT SECTION ***************=====-->
     <section id="about" class="about-section section-padding">
@@ -177,7 +177,7 @@
 
     <!--QUOTES AREA-->
     <div class="quotes-area section-padding">
-        <div class="container">
+        <div class="container" data-stellar-background-ratio="0.6" style="background-position: 0% 0%;">
             <div class="row wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
                 <div class="col-md-12">
                     <div class="quotes-content text-center">

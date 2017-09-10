@@ -13,17 +13,15 @@ SKILS SECTION
 QUOTES AREA
 CONTACT AND INFO SECTION
 FOOTER SECTION
-
-====================================================
-            End table content 
 ===================================================*/
- /*================================================
-             BASE CSS
-==================================================*/
 
- .body {
-     background: url("../assets/intro-bg.jpg");
-     background-size: cover;
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     letter-spacing: 1px;
+     line-height: 24px;
+     overflow-y: hidden;
+     background: #f0f0f0;
  }
 
  .white {
@@ -62,18 +60,6 @@ FOOTER SECTION
 
  p {
      color: #444;
- }
-
- html,
- body {
-     height: 100%
- }
-
- body {
-     font-family: 'Roboto', sans-serif;
-     font-weight: 400;
-     letter-spacing: 1px;
-     line-height: 24px;
  }
 
  a:hover {
@@ -117,7 +103,8 @@ FOOTER SECTION
      height: 100%;
      left: 0;
      top: 0;
-     background-color: #fff;
+     color: #fff;
+     background-color: #ccc;
      z-index: 9999999;
  }
 
@@ -200,7 +187,7 @@ FOOTER SECTION
      height: 100%;
  }
 
- .welcome-area:after{
+ .welcome-area:after {
      position: absolute;
      content: "";
      top: 0;
@@ -219,78 +206,6 @@ FOOTER SECTION
      z-index: 1;
      position: relative;
      height: 100%;
- }
- /*================================================
-             HEADER AREA
-==================================================*/
-
- .custom-navbar {
-     background: transparent;
-     -webkit-transition: all 0.4s ease-in-out;
-     transition: all 0.4s ease-in-out;
- }
-
- .logo a {
-     color: #fff;
-     display: inline-block;
-     font-size: 16px;
-     font-weight: 500;
-     letter-spacing: 4px;
-     margin-top: 28px;
-     text-transform: uppercase;
-     transition: all 0.4s ease-in-out 0s;
- }
-
- .logo a:focus {
-     text-decoration: none;
- }
-
- .main-menu {
-     text-transform: uppercase;
- }
-
- .main-menu ul.navbar-nav {
-     float: right;
- }
-
- .main-menu ul.nav.navbar-nav li.active {
-     position: relative;
- }
-
- .main-menu ul.nav.navbar-nav li.active a {}
-
- .main-menu ul.navbar-nav li a {
-     color: #fff;
-     font-weight: 500;
-     font-size: 12px;
-     padding: 30px 13px;
-     -webkit-transition: all 0.4s ease-in-out;
-     transition: all 0.4s ease-in-out;
- }
-
- .main-menu ul.navbar-nav li a:focus {
-     background: none;
- }
-
- .main-menu ul li:hover a {
-     color: #f9f9f9;
-     background: none;
- }
-
- .custom-navbar.top-nav-collapse .logo a {
-     color: #fff;
-     margin-top: 20px;
- }
-
- .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
-     color: #fff;
-     padding: 22px 13px;
- }
-
- .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a {}
-
- .custom-navbar.top-nav-collapse {
-     background: #000;
  }
  /*================================================
              WELCOME AREA
@@ -346,10 +261,6 @@ FOOTER SECTION
  /*================================================
              ABOUT SECTION
 ==================================================*/
-
- .about-section {
-     background: #f0f0f0;
- }
 
  .author-image-holder {
      text-align: center;
