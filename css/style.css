@@ -90,7 +90,6 @@ FOOTER SECTION
      display: block;
      height: 50px;
  }
-
  /*========================
     THEAM COLOR
 =========================*/
@@ -205,7 +204,7 @@ FOOTER SECTION
  }
 
  .custom-navbar {
-      background: #000;
+     background: #000;
  }
 
  .custom-navbar.top-nav-collapse .logo a {
@@ -225,7 +224,6 @@ FOOTER SECTION
  .custom-navbar .container {
      margin: 1em;
  }
-
  /*================================================
              WELCOME AREA
 ==================================================*/
