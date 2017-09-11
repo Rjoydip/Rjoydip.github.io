@@ -43,7 +43,7 @@
         $('.spinner').fadeOut();
         $('.preloader').fadeOut(500);
         $body.delay(350).css({
-            'overflow': 'hidden'
+            'overflow-y': 'visible'
         });
     });
 
