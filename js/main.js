@@ -55,12 +55,12 @@
         var scrollPosition = $(window).scrollTop() + $(window).height();
 
         if (scrollPosition <= minScroll) {
-            $('.showMyInfo').hide().fadeOut("slow");
-            $('.showSocialButtons').show().fadeIn("slow");
+            $('.showMyInfo').hide(500).fadeOut("slow");
+            $('.showSocialButtons').show(500).fadeIn("slow");
             return true;
         } else {
-            $('.showMyInfo').show().fadeIn("slow");
-            $('.showSocialButtons').hide().fadeOut("slow");
+            $('.showMyInfo').show(500).fadeIn("slow");
+            $('.showSocialButtons').hide(500).fadeOut("slow");
             return true;
         }
     });
