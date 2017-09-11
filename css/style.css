@@ -101,7 +101,6 @@ FOOTER SECTION
  .btn.theme-color.btn-effect.disabled:hover {
      color: #fff;
  }
-
  /*================================================
              PRELOADER
 ==================================================*/
@@ -430,7 +429,6 @@ FOOTER SECTION
 
  .btn.extra:hover,
  a.btn.extra:hover {}
-
  /*================================================
              SKILS SECTION
 ==================================================*/
@@ -438,6 +436,7 @@ FOOTER SECTION
  .skils-space {
      height: 60px;
  }
+
  .skils-icon {
      float: left;
      width: 40px;
@@ -453,6 +452,7 @@ FOOTER SECTION
      height: 3em;
      width: 3em;
      float: left;
+     border-radius: 50%;
  }
 
  .skils-content h3 {
@@ -467,7 +467,6 @@ FOOTER SECTION
  .skils-content p {
      line-height: 24px;
  }
-
  /*================================================
             QUOTES AREA 
 ==================================================*/
@@ -499,7 +498,6 @@ FOOTER SECTION
      font-size: 16px;
      padding-right: 6px;
  }
-
  /*================================================
             CONTACT INFO SECTION
 ==================================================*/
