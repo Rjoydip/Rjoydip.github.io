@@ -24,6 +24,10 @@ FOOTER SECTION
      background: #f0f0f0;
  }
 
+ body::-webkit-scrollbar {
+     display: none;
+ }
+
  .white {
      color: #ffffff;
  }
