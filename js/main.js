@@ -47,7 +47,7 @@
         });
     });
 
-    if(deviceOS.length > 0){
+    if(deviceOS !== null){
         minScroll = 1050;
     }
 
