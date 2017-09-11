@@ -2,7 +2,9 @@
     "use strict";
 
     var $window = $(window),
-        $body = $('body');
+        $body = $('body'),
+        minScroll = 680, // for mobile
+        deviceOS = window.navigator.appVersion.match(/Win/g);
 
     /*
         ====================================================
@@ -45,18 +47,18 @@
         });
     });
 
+    if(deviceOS.length > 0){
+        minScroll = 1050;
+    }
+
     $window.scroll(function () {
         var scrollPosition = $(window).scrollTop() + $(window).height();
 
-        console.log(window.navigator.appVersion.match(/Win/g));
-
-        if (scrollPosition <= 680) {
-            console.log("2");
+        if (scrollPosition <= minScroll) {
             $('.showMyInfo').hide().fadeOut("slow");
             $('.showSocialButtons').show().fadeIn("slow");
             return true;
         } else {
-            console.log("3");
             $('.showMyInfo').show().fadeIn("slow");
             $('.showSocialButtons').hide().fadeOut("slow");
             return true;
