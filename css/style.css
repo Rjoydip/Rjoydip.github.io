@@ -196,8 +196,14 @@ FOOTER SECTION
     ==================================================
  */
 
+ .logo {
+     text-align: center;
+ }
+
  .logo a {
      color: #DC143C;
+     font-size: 1.1em;
+     margin-left: 0.4em;
      font-family: 'Oswald', sans-serif;
  }
 
