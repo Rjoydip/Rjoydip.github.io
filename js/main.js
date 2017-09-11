@@ -3,7 +3,7 @@
 
     var $window = $(window),
         $body = $('body'),
-        minScroll = 720, // for mobile
+        minScroll = 680, // for mobile
         deviceOS = window.navigator.appVersion.match(/Win/g);
 
     /*

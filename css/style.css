@@ -208,7 +208,7 @@ FOOTER SECTION
  */
 
  .logo {
-     text-align: center;
+     margin: .8em 0;
  }
 
  .logo a {
@@ -228,26 +228,21 @@ FOOTER SECTION
      height: 100%;
  }
 
+ .navbar {
+     min-height: 36px !important;
+ }
+
  .custom-navbar {
      background: #000;
+ }
+
+ .custom-navbar .row .logo {
+     text-align: center;
  }
 
  .custom-navbar.top-nav-collapse .logo a {
      color: #fff;
      margin-top: 20px;
- }
-
- .custom-navbar.top-nav-collapse .main-menu ul.navbar-nav li a {
-     color: #fff;
-     padding: 22px 13px;
- }
-
- .custom-navbar.top-nav-collapse {
-     background: #000;
- }
-
- .custom-navbar .container {
-     margin: 1em;
  }
  /*================================================
              WELCOME AREA
