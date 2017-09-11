@@ -45,14 +45,12 @@
         });
     });
 
-    $window.contextmenu(function(){
-        console.log("Context Menu");
-    });
+    $window.scroll(function () {
+        var scrollPosition = $(window).scrollTop() + $(window).height();
 
-    $window.scroll(function(){
-       var scrollPosition = $(window).scrollTop() + $(window).height();
+        console.log(window.navigator.appVersion.match(/Win/g));
 
-        if(scrollPosition <= 680){
+        if (scrollPosition <= 680) {
             console.log("2");
             $('.showMyInfo').hide().fadeOut("slow");
             $('.showSocialButtons').show().fadeIn("slow");

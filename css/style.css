@@ -43,6 +43,10 @@ FOOTER SECTION
      margin: 0 auto 15px;
  }
 
+ a {
+     color: #DC143C;
+ }
+
  a:focus {
      outline: 0 solid
  }
@@ -265,7 +269,7 @@ FOOTER SECTION
 
  .welcome-text .myname {
      font-size: 3.4em;
-     color: #ffffff;
+     color: #DC143C;
      font-family: 'Oswald', sans-serif;
  }
 
@@ -556,14 +560,17 @@ FOOTER SECTION
 
  .full-adress p.phone:before {
      content: "\f095";
+     color: #DC143C;
  }
 
  .full-adress p.mail:before {
      content: "\f003 ";
+     color: #DC143C;
  }
 
  .full-adress p.adress:before {
      content: "\f041";
+     color: #DC143C;
  }
 
  .full-adress p.phone a,
