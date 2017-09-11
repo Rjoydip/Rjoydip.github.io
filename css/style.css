@@ -17,8 +17,6 @@ FOOTER SECTION
 ====================================================
             End table content 
 ===================================================*/
-
- @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700,900);
  /*================================================
              BASE CSS
 ==================================================*/
@@ -76,30 +74,33 @@ FOOTER SECTION
  a:hover {
      text-decoration: none
  }
- /* Remove Chrome Input Field's Unwanted Yellow Background Color */
 
- input:-webkit-autofill,
- input:-webkit-autofill:hover,
- input:-webkit-autofill:focus {
-     -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+ .gap10 {
+     display: block;
+     height: 10px;
  }
 
- .main-menu ul.navbar-nav li.active a.theme-color {
-     color: #DC143C;
+ .gap20 {
+     display: block;
+     height: 20px;
  }
 
- .custom-navbar.top-nav-collapse .main-menu ul.nav.navbar-nav li.active a.theme-color {
-     color: #DC143C;
+ .gap30 {
+     display: block;
+     height: 30px;
  }
 
- .btn.theme-color,
- a.btn.theme-color {
+ .gap40 {
+     display: block;
+     height: 40px;
+ }
+ /*========================
+    THEAM COLOR
+=========================*/
+
+ .theme-color {
      background: #DC143C;
-     color: #fff;
- }
-
- .btn.theme-color.btn-effect.disabled:hover {
-     color: #fff;
+     color: #ffffff;
  }
  /*================================================
              PRELOADER
@@ -308,7 +309,18 @@ FOOTER SECTION
      vertical-align: middle;
  }
 
- .welcome-text {}
+ .welcome-text .myname {
+     font-size: 3.4em;
+     color: #ffffff;
+     font-family: 'Oswald', sans-serif;
+ }
+
+ .welcome-text h2,
+ h3,
+ h4,
+ h5 {
+     font-family: 'Droid Serif', serif;
+ }
 
  .welcome-text h1 {
      font-size: 110px;
@@ -330,19 +342,22 @@ FOOTER SECTION
              ABOUT SECTION
 ==================================================*/
 
- .about-section {
+ .about-section {   
      background: #f0f0f0;
  }
 
- .author-image {
+ .author-image-holder {
      text-align: center;
  }
 
- .author-image img {
-     max-width: 100%;
-     border-radius: 50%;
-     height: 20em;
-     width: 20em;
+ .author-image {
+     height: 15em !important;
+     width: 15em !important;
+     border-radius: 50% !important;
+     background-image: url("./assets/author.jpg");
+     background-position: right;
+     background-repeat: no-repeat;
+     background-size: cover;
  }
 
  .social-icon {
