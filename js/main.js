@@ -4,7 +4,6 @@
     var $window = $(window),
         $body = $('body');
 
-    $('.navbar').hide();
     /*
         ====================================================
             background-image flickering solution for mobile
@@ -44,9 +43,26 @@
         $body.delay(350).css({
             'overflow-y': 'visible'
         });
-        $window.scroll(function () {
-            ($(window).scrollTop() >= 150) ? $('.navbar').show().fadeIn("slow") : $('.navbar').hide(700).fadeOut("slow");
-        });
+    });
+
+    $window.contextmenu(function(){
+        console.log("Context Menu");
+    });
+
+    $window.scroll(function(){
+       var scrollPosition = $(window).scrollTop() + $(window).height();
+
+        if(scrollPosition <= 680){
+            console.log("2");
+            $('.showMyInfo').hide().fadeOut("slow");
+            $('.showSocialButtons').show().fadeIn("slow");
+            return true;
+        } else {
+            console.log("3");
+            $('.showMyInfo').show().fadeIn("slow");
+            $('.showSocialButtons').hide().fadeOut("slow");
+            return true;
+        }
     });
 
 })(jQuery);
