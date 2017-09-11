@@ -15,16 +15,27 @@ CONTACT AND INFO SECTION
 FOOTER SECTION
 ===================================================*/
 
+ html {
+     box-sizing: border-box
+ }
+
+ *,
+ *:before,
+ *:after {
+     box-sizing: inherit
+ }
+
  body {
      font-family: 'Roboto', sans-serif;
      font-weight: 400;
      letter-spacing: 1px;
      line-height: 24px;
-     overflow-y: hidden;
      background: #f0f0f0;
+     height: 100%;
+     overflow: hidden
  }
 
- body::-webkit-scrollbar {
+ ::-webkit-scrollbar {
      display: none;
  }
 
