@@ -46,6 +46,12 @@
             "target": "_blank",
             "class": "fa fa-linkedin",
             "link": "https://www.linkedin.com/in/rjoydip"
+        },
+        {
+            "title": "web",
+            "target": "_blank",
+            "class": "fa fa-globe",
+            "link": "https://rjoydip.herokuapp.com/"
         }
     ]
 }
