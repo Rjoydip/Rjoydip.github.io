@@ -38,7 +38,6 @@ export default {
                 return i % chunkSize ? [] : [array.slice(i, i + chunkSize)];
             })
         );
-        console.log(this.skils);
     }
 }
 

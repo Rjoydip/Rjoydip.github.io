@@ -34,7 +34,6 @@ export default {
     },
     created(){
         this.footer = this.$parent.$root.footer;
-        console.log(this.$parent.$root);
     }
 }
 
