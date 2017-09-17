@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+            "name": "Javascript",
+            "image": "js.png"
+        },        
+        {
+            "name": "Ionic",
+            "image": "ionic.png"
+        },        
+        {
+            "name": "Firebase",
+            "image": "firebase.png"
+        },        
+        {
+            "name": "Git",
+            "image": "git.png"
+        },        
+        {
+            "name": "Node",
+            "image": "node.png"
+        },        
+        {
+            "name": "vue",
+            "image": "vue.png"
+        }
+    ]
+}

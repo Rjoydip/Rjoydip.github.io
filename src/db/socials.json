@@ -1,0 +1,51 @@
+{
+    "data": [{
+            "title": "quora",
+            "target": "_blank",
+            "class": "fa fa-quora",
+            "link": "https://www.quora.com/profile/Rjoydip"
+        },
+        {
+            "title": "facebook",
+            "target": "_blank",
+            "class": "fa fa-facebook",
+            "link": "https://www.facebook.com/Rjoydip"
+        },
+        {
+            "title": "jsfiddle",
+            "target": "_blank",
+            "class": "fa fa-jsfiddle",
+            "link": "https://jsfiddle.net/user/Rjoydip"
+        },
+        {
+            "title": "git",
+            "target": "_blank",
+            "class": "fa fa-github",
+            "link": "https://github.com/Rjoydip"
+        },
+        {
+            "title": "stackoverflow",
+            "target": "_blank",
+            "class": "fa fa-stack-overflow",
+            "link": "https://stackoverflow.com/users/7283624/rjoydip"
+        },
+        {
+            "title": "twitter",
+            "target": "_blank",
+            "class": "fa fa-twitter",
+            "link": "https://twitter.com/rjoydip11"
+        },
+        {
+            "title": "google-plus",
+            "target": "_blank",
+            "class": "fa fa-google-plus",
+            "link": "https://plus.google.com/+JoydipRoyjrimo11"
+        },
+        {
+            "title": "linkedin",
+            "target": "_blank",
+            "class": "fa fa-linkedin",
+            "link": "https://www.linkedin.com/in/rjoydip"
+        }
+    ]
+}

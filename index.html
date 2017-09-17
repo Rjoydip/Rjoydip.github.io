@@ -2,10 +2,13 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline'; object-src 'self'; style-src 'self' 'unsafe-inline'; media-src *">
 
     <!-- Chrome, Firefox OS and Opera -->
     <meta name="theme-color" content="#212121">
@@ -13,293 +16,41 @@
     <meta name="msapplication-navbutton-color" content="#212121">
     <!-- iOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#212121">
-
-    <title>Joydip Roy</title>
+    <title>Rjoydip</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="#" type="image/png">
 
     <!--==== CSS ====-->
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link href="./css/font-awesome.min.css" rel="stylesheet">
-    <link href="./css/animate.min.css" rel="stylesheet">
-
-    <!-- google fonts -->
-    <link href="./css/fonts.css" rel="stylesheet">
+    <link href="./src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./src/css/font-awesome.min.css" rel="stylesheet">
+    <link href="./src/css/animate.min.css" rel="stylesheet">
 
     <!--==== CUSTOM CSS ====-->
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="./src/css/responsive.css" rel="stylesheet">
 
     <!--
         [if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+            <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]
     -->
 </head>
 
+<style>
+    html {
+        background: #000;
+    }
+</style>
+
 <body>
-    <!--===== Preloader ====-->
-    <div class="preloader" style="display: block;">
-        <div class="spinner" style="display: block;"></div>
-    </div>
 
-    <div id="home"></div>
-    <!--=====************** INTRO SECTION **************=====-->
-    <div class="intro-section" id="intro-bg" style="height: 805px;">
+    <!--===== APP ROOT =====-->
+    <div id="app"></div>
 
-        <!--===== HEADER AREA =====-->
-        <header class="navbar custom-navbar navbar-fixed-top showMyInfo">
-            <div class="container">
-                <div class="row wow fadeIn" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="logo">
-                            <!--== logo ==-->
-                            <img src="./assets/author.jpg" alt="Rjoydip">
-                            <a href="javascript:;"><strong>Rjoydip</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.row-->
-            </div>
-            <!--/.container-->
-        </header>
-
-        <header class="navbar navbar-fixed-top showSocialButtons">
-            <div class="container">
-                <div class="row wow fadeInLeft" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                    <div class="col-md-12 text-center">
-                        <div class="social-icon">
-                            <!--=== author social icons ===-->
-                            <a href="https://github.com/Rjoydip" title="git" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="https://stackoverflow.com/users/7283624/rjoydip" title="stackoverflow" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-                            <a href="https://twitter.com/rjoydip11" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/in/rjoydip" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <!--/.row-->
-            </div>
-            <!--/.container-->
-        </header>
-
-        <!--===== END HEADER AREA ======-->
-
-        <!--======= WELCOME AREA =======-->
-        <div class="welcome-area" data-stellar-background-ratio="0.6" style="background-position: 0% 0%;">
-            <div class="welcome-table">
-                <div class="welcome-cell">
-                    <div class="container">
-                        <div class="row wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="welcome-text">
-                                    <div class="myname">Joydip Roy</div>
-                                    <div class="gap50"></div>
-                                    <div class="gap10"></div>
-                                    <h2 class="white">I am a javascript and open source developer</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <!--/.row-->
-                    </div>
-                    <!--/.container-->
-                </div>
-            </div>
-        </div>
-        <!--===== END WELCOME AREA =====-->
-
-    </div>
-    <!--=====************* END INTRO SECTION ***************=====-->
-
-    <!--=====************** ABOUT SECTION ***************=====-->
-    <section id="about" class="about-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="author-image-holder wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                        <!--<img class="btn" src="./assets/author.jpg" alt="Author Image">-->
-                        <div class="btn author-image" style="background-image: url('./assets/author.jpg')"></div>
-                        <!--=== author image ===-->
-                    </div>
-                </div>
-
-                <div class="col-md-8">
-                    <div class="about-text wow fadeInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                        <div class="text-center">
-                            <p>
-                                I am highly pasanated on javascript development and also i do open source project on my lazy time.
-                            </p>
-                            <a class="btn theme-color" href="https://drive.google.com/uc?id=0ByGUSd_qYB9lT1ZhZlRGZjdwUEk&export=download"><i class="fa fa-download"></i> Download resume</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--=====*********** END ABOUT SECTION **************=====-->
-
-
-    <!--======**************** SKILS SECTION ******************=======-->
-    <section id="skils" class="skils-section section-padding">
-        <div class="container">
-            <br>
-            <div class="row wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/js.png" alt="javascript">
-                            <h3><strong>Javascript</strong></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/ionic.png" alt="ionic">
-                            <h3><strong>Ionic</strong></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/ts.png" alt="typescript">
-                            <h3><strong>Typescript</strong></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.row-->
-            <div class="row wow fadeInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/firebase.png" alt="git">
-                            <h3><strong>Firebase</strong></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/git.png" alt="git">
-                            <h3><strong>Git</strong></h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/node.png" alt="node">
-                            <h3><strong>Node.js</strong></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.row-->
-
-            <div class="row wow fadeInUp" data-wow-delay="0.8s" style="visibility: hidden; animation-delay: 0.8s; animation-name: none;">
-                <div class="col-md-4 col-sm-4">
-                    <div class="single-skils text-left">
-                        <div class="skils-content">
-                            <img src="./assets/vue.png" alt="vue">
-                            <h3><strong>Vue.js</strong></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.row-->
-
-        </div>
-        <!--/.container-->
-    </section>
-    <!--======*************** END SKILS SECTION ****************=======-->
-
-    <!--QUOTES AREA-->
-    <div class="quotes-area section-padding">
-        <div class="container" data-stellar-background-ratio="0.6" style="background-position: 0% 0%;">
-            <div class="row wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                <div class="col-md-12">
-                    <div class="quotes-content text-center">
-                        <h3>Let's work together!</h3>
-                        <p>I am available for open source projects.</p>
-                    </div>
-                </div>
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </div>
-    <!--END QUOTES AREA-->
-
-
-    <!--======******************** CONTACT INFO SECTION **********************======-->
-    <section id="contact" class="contact-info-section section-padding">
-        <div class="container">
-            <div class="row wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                <div class="col-md-3 col-sm-12 col-xs-12"></div>
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="full-adress">
-                        <div class="contact-padding col-md-12">
-                            <p class="phone">Phone: <a href="tel:+918697411233">+91 8697411233</a></p>
-                        </div>
-                        <div class="contact-padding col-md-12">
-                            <p class="mail">Email: <a href="mailto:joydipand@gmail.com">joydipand@gmail.com</a></p>
-                        </div>
-                        <div class="contact-padding col-md-12">
-                            <p class="adress">
-                                Address: Hridaypur, Kora Babupara, Kolkata, India
-                                <br> Pincode: 700130
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-sm-12 col-xs-12"></div>
-
-            </div>
-            <!--/.row-->
-        </div>
-        <!--/.container-->
-    </section>
-    <!--======**************** END CONTACT INFO SECTION ********************======-->
-
-    <!--======******************* FOOTER SECTION ******************======-->
-    <footer class="footer">
-        <div class="container">
-            <div class="row wow fadeInLeft" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                <div class="col-md-12 text-center">
-                    <div class="social-icon">
-                        <!--=== author social icons ===-->
-                        <a href="https://www.quora.com/profile/Rjoydip" title="quora" target="_blank"><i class="fa fa-quora"></i></a>
-                        <a href="https://www.facebook.com/Rjoydip" title="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                        <a href="https://jsfiddle.net/user/Rjoydip" title="jsfiddle" target="_blank"><i class="fa fa-jsfiddle"></i></a>
-                        <a href="https://github.com/Rjoydip" title="git" target="_blank"><i class="fa fa-github"></i></a>
-                        <a href="https://stackoverflow.com/users/7283624/rjoydip" title="stackoverflow" target="_blank"><i class="fa fa-stack-overflow"></i></a>
-                        <a href="https://twitter.com/rjoydip11" title="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                        <a href="https://plus.google.com/+JoydipRoyjrimo11" title="google-plus" target="_blank"><i class="fa fa-google-plus"></i></a>
-                        <a href="https://www.linkedin.com/in/rjoydip" title="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
-                    </div>
-                    <div class="footer-text">
-                        <p>©2017 <strong>Joydip Roy</strong>. All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--======******************* END FOOTER SECTION ***************======-->
-
-    <!--===== JAVASCRIPT FILES =====-->
-    <script src="./js/jquery-2.1.4.min.js"></script>
-    <script src="./js/jquery.stellar.min.js"></script>
-    <script src="./js/wow.min.js"></script>
-    <script src="./js/plugins.js"></script>
-    <script src="./js/main.js"></script>
-
+    <!--===== BUILD JAVASCRIPT FILES =====-->
+    <script src="./dist/build.js"></script>
+   
 </body>
 
 </html>

@@ -1,0 +1,51 @@
+{
+  "name": "vue.rjoydip",
+  "description": "A Vue.js project for my personal website",
+  "version": "1.0.0",
+  "author": "Rjoydip <joydipand@gmail.com>",
+  "private": false,
+  "engines": {
+    "node": "6.11.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "vue": "^2.3.3",
+    "express": "4.15.2"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-preset-env": "^1.5.1",
+    "cross-env": "^3.0.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^5.0.1",
+    "vue-loader": "^12.1.0",
+    "vue-template-compiler": "^2.3.3",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vueJsLab/vue.rjoydip.github.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "Rjoydip",
+    "rjoydip",
+    "javascript",
+    "developer",
+    "personal website"
+  ]
+}
