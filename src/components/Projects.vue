@@ -1,8 +1,10 @@
 <template>
     <section class="projects-section">
         <div class="container">
-            <div class="projRow animated fadeInUp" v-on:click="openLink(project.html_url, $event)" v-for="project in myProjects">
-                {{project.name}}
+            <div class="section-top">
+                <div class="projRow animated fadeInUp" v-on:click="openLink(project.html_url, $event)" v-for="project in myProjects">
+                    {{project.name}}
+                </div>
             </div>
         </div>
         <!--/.container-->
@@ -52,6 +54,10 @@ export default {
 
 .container {
     margin-top: 25px;
+}
+
+.section-top{
+        margin-top: 30px;
 }
 
 .projRow {
