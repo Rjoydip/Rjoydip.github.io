@@ -1,7 +1,7 @@
 {
   "name": "vue.rjoydip",
   "description": "A Vue.js project for my personal website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Rjoydip <joydipand@gmail.com>",
   "private": false,
   "engines": {

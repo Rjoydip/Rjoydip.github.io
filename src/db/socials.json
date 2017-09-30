@@ -12,12 +12,6 @@
             "link": "https://www.facebook.com/Rjoydip"
         },
         {
-            "title": "jsfiddle",
-            "target": "_blank",
-            "class": "fa fa-jsfiddle",
-            "link": "https://jsfiddle.net/user/Rjoydip"
-        },
-        {
             "title": "git",
             "target": "_blank",
             "class": "fa fa-github",
@@ -36,22 +30,10 @@
             "link": "https://twitter.com/rjoydip11"
         },
         {
-            "title": "google-plus",
-            "target": "_blank",
-            "class": "fa fa-google-plus",
-            "link": "https://plus.google.com/+JoydipRoyjrimo11"
-        },
-        {
             "title": "linkedin",
             "target": "_blank",
             "class": "fa fa-linkedin",
             "link": "https://www.linkedin.com/in/rjoydip"
-        },
-        {
-            "title": "web",
-            "target": "_blank",
-            "class": "fa fa-globe",
-            "link": "https://rjoydip.herokuapp.com/"
         }
     ]
 }

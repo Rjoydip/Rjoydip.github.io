@@ -203,7 +203,6 @@ h5 {
     color: #fff;
     margin-bottom: 15px;
     font-weight: 700;
-    text-transform: capitalize;
     letter-spacing: 8px;
 }
 
@@ -211,7 +210,6 @@ h5 {
     color: #fff;
     font-weight: 500;
     font-size: 20px;
-    text-transform: capitalize;
     letter-spacing: 3px;
 }
 </style>
