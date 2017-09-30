@@ -66,6 +66,8 @@ export default {
     background: #000;
     margin: 5px;
     color: #fff;
-    padding: 1%;
+    padding: 2%;
+    font-size: 12px;
+    border-radius: 5px;
 }
 </style>
