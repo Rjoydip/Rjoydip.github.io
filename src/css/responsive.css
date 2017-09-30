@@ -69,7 +69,14 @@
     .footer-text P {
         font-size: 14px;
     }
+    .container ul {
+        padding: 0 20% !important;
+    }
+    .projRow{
+        width: 45% !important;
+    }
 }
+
 
 /* Wide Mobile Layout: 480px. */
 

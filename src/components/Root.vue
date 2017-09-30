@@ -7,6 +7,7 @@
             <Intro></Intro>
             <About></About>
             <Skils></Skils>
+            <Projects></Projects>
             <Timeline></Timeline>
             <Quotes></Quotes>
             <Contacts></Contacts>
@@ -23,6 +24,7 @@ import Skils from "./Skils.vue";
 import Quotes from "./Quotes.vue";
 import Timeline from './Timeline.vue';
 import Contacts from "./Contacts.vue";
+import Projects from "./Projects.vue";
 import Footr from "./Footer.vue";
 
 export default {
@@ -34,6 +36,7 @@ export default {
         Quotes,
         Contacts,
         Footr,
+        Projects,
         Timeline
     },
     data() {

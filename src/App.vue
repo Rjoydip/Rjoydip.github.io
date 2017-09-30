@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Preloader></Preloader>
+        <Root></Root>
     </div>
 </template>
 
@@ -8,12 +8,12 @@
 
 // Import the EventBus we just created.
 import { EventBus } from './services/event-bus.js';
-import Preloader from "./components/Preloader.vue";
+import Root from "./components/Root.vue";
 
 export default {
     name: 'app',
     components: {
-        Preloader,
+        Root,
     },
     data() {
         return {

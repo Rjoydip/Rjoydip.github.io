@@ -1,7 +1,6 @@
 <template>
     <section id="skils" class="skils-section section-padding">
         <div class="container">
-            <br>
             <div class="row animated fadeInUp" v-for="s in skils">
                 <div class="col-md-4 col-sm-4" v-for="a in s">
                     <div class="single-skils text-left">
