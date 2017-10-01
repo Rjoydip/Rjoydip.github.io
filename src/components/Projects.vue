@@ -68,6 +68,7 @@ export default {
     color: #fff;
     padding: 2%;
     font-size: 12px;
+    cursor: pointer;
     border-radius: 5px;
 }
 </style>

@@ -78,6 +78,7 @@ export default {
     font-size: 60px;
     font-weight: 100;
     color: #FFF;
+    cursor: -webkit-grab;
     cursor: grabbing;
 }
 

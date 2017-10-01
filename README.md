@@ -1,6 +1,6 @@
-# vue.rjoydip
+# rjoydip.github.io
 
-> A Vue.js project for building my personal website
+> My personal website build using vue.js.
 
 ## Build Setup
 
