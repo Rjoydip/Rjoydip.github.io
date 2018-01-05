@@ -1,10 +1,5 @@
 {
-    "data": [{
-            "title": "quora",
-            "target": "_blank",
-            "class": "fa fa-quora",
-            "link": "https://www.quora.com/profile/Rjoydip"
-        },
+    "data": [
         {
             "title": "facebook",
             "target": "_blank",
@@ -15,7 +10,7 @@
             "title": "git",
             "target": "_blank",
             "class": "fa fa-github",
-            "link": "https://github.com/Rjoydip"
+            "link": "https://github.com/rjoydip"
         },
         {
             "title": "stackoverflow",

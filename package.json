@@ -1,7 +1,7 @@
 {
   "name": "vue.rjoydip",
   "description": "A Vue.js project for my personal website",
-  "version": "1.0.1",
+  "version": "0.0.2",
   "author": "Rjoydip <joydipand@gmail.com>",
   "private": false,
   "engines": {
@@ -11,8 +11,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "vue": "^2.3.3",

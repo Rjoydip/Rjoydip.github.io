@@ -1,11 +1,13 @@
 <template>
-    <section class="about-section section-padding">
-        <div id="container" ref="container" v-on:mousemove="move">
-            <div id="thumbs" ref="thumbs" @click.prevent="thubsClicked">
-                <div class="history-block animated slideInUp" v-for="data in timelines">
-                    <div class="cover">
-                        <div class="year">{{data.year}}</div>
-                        <div class="title">{{data.title}}</div>
+    <section class="timeline-section section-padding">
+        <div class="row">
+            <div id="container" class="col-sm-offset-2" ref="container">
+                <div id="thumbs" ref="thumbs">
+                    <div class="history-block animated slideInUp" v-for="data in timelines">
+                        <div class="cover">
+                            <div class="year">{{data.year}}</div>
+                            <div class="title">{{data.title}}</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -47,7 +49,7 @@ export default {
 </script>
 
 <style scoped>
-.about-section {
+.timeline-section {
     background: #fff;
 }
 
@@ -78,8 +80,6 @@ export default {
     font-size: 60px;
     font-weight: 100;
     color: #FFF;
-    cursor: -webkit-grab;
-    cursor: grabbing;
 }
 
 .history-block:last-of-type {
@@ -95,7 +95,7 @@ export default {
 }
 
 .year {
-    position: absolute;
+    text-align: center;
     padding: 10px 0;
     font-size: 20px;
     font-weight: 500;
@@ -104,7 +104,6 @@ export default {
 .title {
     position: absolute;
     width: 260px;
-    top: 50px;
     font-size: 14px;
     white-space: normal;
 }
